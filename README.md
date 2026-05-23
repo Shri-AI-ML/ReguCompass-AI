@@ -526,8 +526,8 @@ Future enterprise deployment may include:
 
 # 👥 Team
 
-The Wolves
-Theme: Agentic Regulatory Intelligence & Compliance
+**The Wolves** <br>
+Theme: Agentic Regulatory Intelligence & Compliance <br>
 Mail: tyagishubh.workspace@gmail.com
 
 ---
