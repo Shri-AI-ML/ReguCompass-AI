@@ -16,7 +16,7 @@ The platform autonomously:
 - Verifies AI-generated outputs
 - Generates audit-ready compliance intelligence
 
-Unlike generic AI copilots or standard RAG systems, ReguCompass AI is engineered specifically for:
+Unlike Generic AI copilots or standard RAG systems, ReguCompass AI is engineered specifically for:
 - Banking governance
 - Audit traceability
 - Hallucination prevention
@@ -66,12 +66,11 @@ Autonomous Regulatory Intelligence
 ```
 
 The platform acts as:
-# A Compliance Operating System
-—not merely an AI chatbot.
+> A Compliance Operating System, not merely an AI chatbot.
 
 ---
 
-# 🏗 Prototype Architecture
+# Prototype Architecture
 
 ```text
 ┌──────────────────────────────────────────────┐
@@ -152,7 +151,7 @@ The platform acts as:
 │  • Risk Heatmaps                             │
 │  • Audit Evidence                            │
 │  • Agent Logs                                │
-│  • Source Clause Mapping                     │
+│                                              │
 │                                              │
 └──────────────────────────────────────────────┘
 ```
@@ -168,7 +167,7 @@ Different AI models are dynamically assigned specialized compliance tasks.
 
 ---
 
-# 🧩 Model Assignment Strategy
+# Model Assignment Strategy
 
 | Agent | Model Used | Purpose |
 |---|---|---|
@@ -177,58 +176,58 @@ Different AI models are dynamically assigned specialized compliance tasks.
 | Auditor Agent | Claude Sonnet | Verification & hallucination prevention |
 | Risk Scoring Agent | Claude Sonnet | Risk severity evaluation |
 | Summarization Layer | Gemini Flash | Executive summaries |
-| Offline Fallback Layer | Llama3 via Ollama | Air-gapped banking deployment |
+| Offline Fallback Layer | Llama3 via Ollama | For Safe Banking deployment |
 
 ---
 
 # 🧠 Why Different Models?
 
-Different models specialize in different capabilities.
+> Different models specialize in different capabilities.
 
 ## Gemini Flash
 Used for:
-- ultra-fast extraction
-- preprocessing
-- summarization
-- lightweight classification
+- Ultra-fast extraction
+- Preprocessing
+- Summarization
+- Lightweight classification
 
 Why?
-Low latency and fast response generation.
+> Low latency and fast response generation.
 
 ---
 
 ## DeepSeek Chat
 Used for:
-- compliance reasoning
-- obligation extraction
-- contextual analysis
-- department mapping
+- Compliance reasoning
+- Obligation extraction
+- Contextual analysis
+- Department mapping
 
 Why?
-Strong reasoning performance with low operational cost.
+> Strong reasoning performance with low operational cost.
 
 ---
 
 ## Claude Sonnet
 Used for:
-- hallucination detection
-- verification
-- source validation
-- risk evaluation
+- Hallucination detection
+- Verification
+- Source validation
+- Risk evaluation
 
 Why?
-High reliability and safer enterprise-grade reasoning.
+> High reliability and safer enterprise-grade reasoning.
 
 ---
 
 ## Llama3 (Offline Mode)
 Used for:
-- air-gapped banking infrastructure
-- secure offline deployment
-- fallback inference layer
+- Air-gapped or Safe Banking infrastructure
+- Secure offline deployment
+- Fallback inference layer
 
 Why?
-Production banking environments may prohibit external API calls.
+> Production Banking environments may prohibit external API calls.
 
 ---
 
@@ -282,10 +281,10 @@ AI responses are generated only from retrieved compliance clauses.
 ## Verification Pipeline
 
 Every AI-generated recommendation is:
-- verified against source clauses
-- mapped to evidence
-- confidence scored
-- audit traceable
+- Verified against source clauses
+- Mapped to evidence
+- Confidence scored
+- Audit traceable
 
 ---
 
@@ -305,23 +304,6 @@ Page 4 → Clause 2.1
 
 ---
 
-# ⚙️ Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Backend API | FastAPI |
-| PDF Parsing | PyMuPDF |
-| Layout Reconstruction | Marker |
-| Embeddings | BGE-small |
-| Vector Database | ChromaDB |
-| Agent Orchestration | LangGraph |
-| Model Routing | OpenRouter |
-| Reasoning Models | Claude, DeepSeek, Gemini |
-| Offline Fallback | Llama3 |
-| Storage | SQLite |
-
----
-
 # 🔄 Prototype Workflow
 
 ## Step 1 — Upload RBI Circular
@@ -333,54 +315,54 @@ Compliance officer uploads regulatory PDF.
 PyMuPDF extracts text.
 
 Marker preserves:
-- tables
-- layouts
-- clause hierarchy
-- formatting
+- Tables
+- Layouts
+- Clause hierarchy
+- Formatting
 
 ---
 
 ## Step 3 — Semantic Retrieval Layer
 Compliance clauses converted into embeddings.
 
-Stored inside ChromaDB for:
-- semantic retrieval
-- evidence grounding
-- contextual search
+Stored for:
+- Semantic retrieval
+- Evidence grounding
+- Contextual search
 
 ---
 
 ## Step 4 — Multi-Agent Execution
 
 ### Ingestor Agent
-- regulation classification
-- metadata extraction
-- severity assignment
+- Regulation classification
+- Metadata extraction
+- Severity assignment
 
 ### Analyst Agent
-- compliance reasoning
-- obligation mapping
-- department impact analysis
+- Compliance reasoning
+- Obligation mapping
+- Department impact analysis
 
 ### Auditor Agent
-- hallucination detection
-- evidence verification
-- citation validation
+- Hallucination detection
+- Evidence verification
+- Citation validation
 
 ### Risk Scoring Agent
-- risk severity analysis
-- governance prioritization
+- Risk severity analysis
+- Governance prioritization
 
 ---
 
 ## Step 5 — Compliance Report Generation
 
 System generates:
-- compliance summary
-- risk score
-- action checklist
-- confidence score
-- audit traceability
+- Compliance summary
+- Risk score
+- Action checklist
+- Confidence score
+- Audit traceability
 
 ---
 
@@ -424,7 +406,7 @@ System generates:
 
 ---
 
-# 🧩 Core Innovation
+# 🧩 ANY NEW INNOVATION?
 
 Unlike standard AI systems:
 - Outputs are never accepted without validation
@@ -435,33 +417,6 @@ Unlike standard AI systems:
 
 ---
 
-# 🛣 Development Roadmap
-
-## Week 1
-- FastAPI setup
-- PDF ingestion pipeline
-- Parsing engine
-
-## Week 2
-- Intelligent chunking
-- Embeddings
-- ChromaDB integration
-
-## Week 3
-- LangGraph orchestration
-- Multi-agent workflows
-
-## Week 4
-- Auditor verification loops
-- Hallucination prevention
-- Confidence scoring
-
-## Week 5
-- Dashboard integration
-- Demo preparation
-- Architecture visualization
-
----
 
 # 📂 Project Structure
 
@@ -562,42 +517,17 @@ Future enterprise deployment may include:
 
 ---
 
-# 🏆 Hackathon Focus
 
-This prototype demonstrates:
-# The Core Autonomous Verification Engine
+# 📌 Core Focus
 
-of a future enterprise-scale:
-# Compliance Operating System
-
----
-
-# 📌 Core Principle
-
-> “ReguCompass AI is designed as a governance operating layer, not merely an AI assistant.”
+> ReguCompass AI is designed as an Autonomous Verification Engine on the Enterprise Scale which operates as a Compliance Operating System.
 
 ---
 
 # 👥 Team
 
-Canara Bank SuRaksha Cyber Hackathon 2.0  
-Track 2 — Agentic Regulatory Intelligence & Compliance
+The Wolves
+Theme: Agentic Regulatory Intelligence & Compliance
+Mail: tyagishubh.workspace@gmail.com
 
 ---
-
-# 📜 License
-
-MIT License
-
----
-
-# 🙌 Acknowledgements
-
-Built using:
-- LangGraph
-- OpenRouter
-- PyMuPDF
-- ChromaDB
-- FastAPI
-- Ollama
-- Multi-Agent AI Systems
