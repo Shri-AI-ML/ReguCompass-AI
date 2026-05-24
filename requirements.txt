@@ -1,0 +1,56 @@
+# Core Backend
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+pydantic
+
+# PDF Parsing
+pymupdf
+marker-pdf
+
+# AI / LLM
+openai
+langchain
+langchain-core
+langchain-community
+langgraph
+
+# Embeddings + Vector DB
+chromadb
+sentence-transformers
+
+# Data Processing
+numpy
+pandas
+
+# Database
+sqlalchemy
+
+# Tokenization / Text Processing
+tiktoken
+
+# HTTP / Async
+httpx
+aiofiles
+requests
+
+# Logging & Monitoring
+loguru
+
+# Optional Offline LLM Support
+ollama
+
+# Development Utilities
+rich
+tqdm
+
+# Optional API Docs Enhancements
+jinja2
+
+# Security / Validation
+cryptography
+
+# Testing
+pytest
+pytest-asyncio
